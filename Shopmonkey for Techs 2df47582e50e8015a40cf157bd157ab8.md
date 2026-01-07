@@ -8,7 +8,7 @@ Platform: Android, iOS
 Tools: Figma, Maze
 Link: https://apps.apple.com/us/app/shopmonkey-for-techs/id1516327107
 
-![Cover Image](https://cdn.jsdelivr.net/gh/pwebsite/portfolio_images@main/shopmonkey/shopmonkey_08.png)
+![Cover Image](https://cdn.jsdelivr.net/gh/pwebsite/portfolio_assets_shopmonkey@main/portfolio_assets_shopmonkey/portfolio_assets_shopmonkey_08.png)
 
 ## Overview
 
@@ -18,7 +18,7 @@ Link: https://apps.apple.com/us/app/shopmonkey-for-techs/id1516327107
 
 Based on insights from customers, our team noticed a growing problem: though new features are added to the app on a regular basis, users aren’t aware of their existence and hence, could not benefit from them. At the time of the project, no explicit solution existed on the mobile platform to address this issue, other than a list of technical release notes after the app is updated.
 
-![](https://cdn.jsdelivr.net/gh/pwebsite/portfolio_images@main/shopmonkey/shopmonkey_10.png)
+![](https://cdn.jsdelivr.net/gh/pwebsite/portfolio_assets_shopmonkey@main/portfolio_assets_shopmonkey/portfolio_assets_shopmonkey_10.png)
 
 *Current “What’s New?” screen on iOS*
 
@@ -40,7 +40,7 @@ Due to the cross-functional nature of the project, it was also important to acti
 
 The iOS Shopmonkey for Techs app is geared specifically towards automotive technicians, who are professionals that fix, inspect, and help maintain vehicles at auto shops.
 
-![](https://cdn.jsdelivr.net/gh/pwebsite/portfolio_images@main/shopmonkey/shopmonkey_13.png)
+![](https://cdn.jsdelivr.net/gh/pwebsite/portfolio_assets_shopmonkey@main/portfolio_assets_shopmonkey/portfolio_assets_shopmonkey_13.png)
 
 *Aggregate persona based on user research*
 
@@ -48,7 +48,7 @@ The iOS Shopmonkey for Techs app is geared specifically towards automotive techn
 
 Inspiration from both web and mobile were part of early exploration and analysis. Since an important part of this project was about internal consistency, this also involved incorporating examples of existing feature announcement patterns in Shopmonkey’s web platform.
 
-![](https://cdn.jsdelivr.net/gh/pwebsite/portfolio_images@main/shopmonkey/shopmonkey_17.png)
+![](https://cdn.jsdelivr.net/gh/pwebsite/portfolio_assets_shopmonkey@main/portfolio_assets_shopmonkey/portfolio_assets_shopmonkey_17.png)
 
 *Inspiration and Analysis — Modals, tooltips, full-screen sheets, “What’s New?” menus, etc. examples from Shopmonkey, Apple iOS, Slack, [Monday.com](http://monday.com/), Gmail, and Microsoft OneNote on both web and mobile*
 
@@ -69,7 +69,7 @@ The biggest challenge was establishing how to visually distinguish between diffe
 
 These early explorations also include ideas to include brand voice, such as incorporating illustrations or matching web’s help chat and showing a representative from Shopmonkey to help build a stronger personal connection to the user.
 
-![](https://cdn.jsdelivr.net/gh/pwebsite/portfolio_images@main/shopmonkey/shopmonkey_04.png)
+![](https://cdn.jsdelivr.net/gh/pwebsite/portfolio_assets_shopmonkey@main/portfolio_assets_shopmonkey/portfolio_assets_shopmonkey_04.png)
 
 *Early explorations for Tiers 1, 2, and 3, including brand voice*
 
@@ -77,7 +77,7 @@ These early explorations also include ideas to include brand voice, such as inco
 
 These early designs took visual inspiration from Apple’s full-sized “What’s New?” sheet, and also focused on copy and visual treatments that better aligned with the fun and colloquial tone of the marketing team’s brand voice.
 
-![](https://cdn.jsdelivr.net/gh/pwebsite/portfolio_images@main/shopmonkey/shopmonkey_16.png)
+![](https://cdn.jsdelivr.net/gh/pwebsite/portfolio_assets_shopmonkey@main/portfolio_assets_shopmonkey/portfolio_assets_shopmonkey_16.png)
 
 *Early explorations for “What’s New?”*
 
@@ -95,9 +95,9 @@ In collaboration with the UX writer, we refined the copy to:
 
 More visual refinement was also needed to match existing modal conventions within the Shopmonkey app. Thoughtfully integrating feature icons and illustrations in line with branding were also an important part of this stage. Below are key examples synthesized from over 100 designs.
 
-![](https://cdn.jsdelivr.net/gh/pwebsite/portfolio_images@main/shopmonkey/shopmonkey_11.png)
+![](https://cdn.jsdelivr.net/gh/pwebsite/portfolio_assets_shopmonkey@main/portfolio_assets_shopmonkey/portfolio_assets_shopmonkey_11.png)
 
-![](https://cdn.jsdelivr.net/gh/pwebsite/portfolio_images@main/shopmonkey/shopmonkey_12.png)
+![](https://cdn.jsdelivr.net/gh/pwebsite/portfolio_assets_shopmonkey@main/portfolio_assets_shopmonkey/portfolio_assets_shopmonkey_12.png)
 
 *Tier 1 modal refinement, incorporating updated copy and brand voice (bottom row). Also explored displaying multiple large CTAs, prominent icons, and abstracted feature illustrations*
 
@@ -105,7 +105,7 @@ More visual refinement was also needed to match existing modal conventions withi
 
 The tooltip explorations shown below are more detailed than in previous stages, adapted from existing tooltips from Shopmonkey web. Some points of focus were to simplify the text by removing the title line, to include a larger icon (if shown), and to use the dark background to make it more eye-catching.
 
-![](https://cdn.jsdelivr.net/gh/pwebsite/portfolio_images@main/shopmonkey/shopmonkey_14.png)
+![](https://cdn.jsdelivr.net/gh/pwebsite/portfolio_assets_shopmonkey@main/portfolio_assets_shopmonkey/portfolio_assets_shopmonkey_14.png)
 
 *Tier 2 tooltip explorations. Experimented with incorporating icons, illustrations, titles, and matching brand voice from Shopmonkey web*
 
@@ -113,7 +113,7 @@ The tooltip explorations shown below are more detailed than in previous stages, 
 
 Designs from this stage involved experimenting with titles and text-only content within tooltips, intended to be used as announcements for new feature enhancements or existing features the user has not engaged with yet.
 
-![](https://cdn.jsdelivr.net/gh/pwebsite/portfolio_images@main/shopmonkey/shopmonkey_01.png)
+![](https://cdn.jsdelivr.net/gh/pwebsite/portfolio_assets_shopmonkey@main/portfolio_assets_shopmonkey/portfolio_assets_shopmonkey_01.png)
 
 *Tier 3 tooltip explorations with text only, experimenting with titles*
 
@@ -121,13 +121,13 @@ Designs from this stage involved experimenting with titles and text-only content
 
 In this next iteration, I coupled brand illustrations with the educational benefits of introducing proprietary icons to users. Another important aspect in this design was to keep dates in the features list. This was due to feedback from the customer support team, when often customers will call in asking when a feature was released. This gives an easy point of reference for customer support to point users to, when needed. Lazy loading was also incorporated based on direct feedback from the engineering team, to ease implementation and for faster loading times.
 
-![](https://cdn.jsdelivr.net/gh/pwebsite/portfolio_images@main/shopmonkey/shopmonkey_18.png)
+![](https://cdn.jsdelivr.net/gh/pwebsite/portfolio_assets_shopmonkey@main/portfolio_assets_shopmonkey/portfolio_assets_shopmonkey_18.png)
 
 *Second iteration of “What’s New?” screen, Including icons for education and illustration highlighting brand voice*
 
 From stakeholder feedback such as engineering, UX research, and design, it surfaced that based on prior user data, it would be easy for a tech to experience a one-time popup screen as an interruption to their busy work day, and would likely dismiss it without reading. In order to address this, I developed a wider UX flow that involved combining tooltips with adding a persistent place in the app where power users can visit to learn more about new features after initial dismissal.
 
-![](https://cdn.jsdelivr.net/gh/pwebsite/portfolio_images@main/shopmonkey/shopmonkey_07.png)
+![](https://cdn.jsdelivr.net/gh/pwebsite/portfolio_assets_shopmonkey@main/portfolio_assets_shopmonkey/portfolio_assets_shopmonkey_07.png)
 
 *Proposed UX flow for “What’s New?” screen, with lazy loading*
 
@@ -137,7 +137,7 @@ Once there was a defined direction, it was important to evaluate whether these d
 
 Specifically, our team collaborated with UX research to discuss pros and cons to different formats for testing. We ultimately decided to use Maze as an unmoderated testing tool to asynchronously gather both qualitative and quantitative design feedback from general automotive techs who may not necessarily be familiar with Shopmonkey’s platform. This allows us to test the baseline for whether these designs are intuitive and effective. The tests' goals, structure, questions, and wording, and other design aspects were developed in close collaboration as a team.
 
-![](https://cdn.jsdelivr.net/gh/pwebsite/portfolio_images@main/shopmonkey/shopmonkey_02.png)
+![](https://cdn.jsdelivr.net/gh/pwebsite/portfolio_assets_shopmonkey@main/portfolio_assets_shopmonkey/portfolio_assets_shopmonkey_02.png)
 
 *Unmoderated user testing for Tiers and “What’s New?” flows to validate whether these new designs achieve our initial design goals*
 
@@ -153,13 +153,13 @@ Tier 1 modal designs ended up having two visual treatments, designed to be adapt
 
 From left to right below, see the Tier 1 treatment in context, final design system component, and example use cases.
 
-![](https://cdn.jsdelivr.net/gh/pwebsite/portfolio_images@main/shopmonkey/shopmonkey_03.png)
+![](https://cdn.jsdelivr.net/gh/pwebsite/portfolio_assets_shopmonkey@main/portfolio_assets_shopmonkey/portfolio_assets_shopmonkey_03.png)
 
 ### Tier 2
 
 For new Tier 2 features, introducing a large icon with its corresponding tooltip does double duty in not only announcing the feature, but also in educating the user which icon is associated with that particular feature, so it can be reused in other areas of the app. This helps increase learnability for users who do not recognize icons that are unique to Shopmonkey’s product.
 
-![](https://cdn.jsdelivr.net/gh/pwebsite/portfolio_images@main/shopmonkey/shopmonkey_09.png)
+![](https://cdn.jsdelivr.net/gh/pwebsite/portfolio_assets_shopmonkey@main/portfolio_assets_shopmonkey/portfolio_assets_shopmonkey_09.png)
 
 ### Tier 3
 
@@ -167,15 +167,15 @@ Final Tier 3 designs were separated into new feature enhancements and showing us
 
 Incorporating the “Protip” concept helped distinguish Tier 3 from Tier 2 designs visually, for existing feature announcements. This reusable copy and emoji icon not only follows a similar visual pattern on Shopmonkey web, but also helps make this component adaptable for a wide variety of use cases. It conveys the intended meaning visually rather than relying on copy as a descriptor, which helps speed up recognition for busy techs using the app, based on prior data.
 
-![](https://cdn.jsdelivr.net/gh/pwebsite/portfolio_images@main/shopmonkey/shopmonkey_15.png)
+![](https://cdn.jsdelivr.net/gh/pwebsite/portfolio_assets_shopmonkey@main/portfolio_assets_shopmonkey/portfolio_assets_shopmonkey_15.png)
 
 ### What's New
 
 Since the “What’s New?” flow was hidden deep in the app, there was deliberate discussion within the product team about whether the level of effort in development work would be worth the comparatively small impact it would make in the overall user experience. Because of this, our team ultimately decided to add a persistent entry point to the “What’s New?” screen and link it to an existing embedded web page used by Shopmonkey’s web platform to summarize release notes, since it balanced the team’s resource capacity at the time with achieving the project’s original goals.
 
-![](https://cdn.jsdelivr.net/gh/pwebsite/portfolio_images@main/shopmonkey/shopmonkey_06.gif)
+![](https://cdn.jsdelivr.net/gh/pwebsite/portfolio_assets_shopmonkey@main/portfolio_assets_shopmonkey/portfolio_assets_shopmonkey_06.gif)
 
-![](https://cdn.jsdelivr.net/gh/pwebsite/portfolio_images@main/shopmonkey/shopmonkey_05.png)
+![](https://cdn.jsdelivr.net/gh/pwebsite/portfolio_assets_shopmonkey@main/portfolio_assets_shopmonkey/portfolio_assets_shopmonkey_05.png)
 
 ## Results
 

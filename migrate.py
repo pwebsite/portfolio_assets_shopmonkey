@@ -10,7 +10,7 @@ import urllib.request
 
 # --- CONFIGURATION (EDIT THIS) ---
 GITHUB_USER = "pwebsite"
-REPO_NAME = "portfolio_images"
+REPO_NAME = "portfolio_assets_shopmonkey"
 BRANCH = "main"
 
 # "auto" will use the name of the folder this script is running in (e.g. "shopmonkey")
