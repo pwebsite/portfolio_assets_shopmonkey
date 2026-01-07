@@ -13,14 +13,14 @@ GITHUB_USER = "pwebsite"
 REPO_NAME = "portfolio_assets_shopmonkey"
 BRANCH = "main"
 
-# "auto" will use the name of the folder this script is running in (e.g. "shopmonkey")
-# Change this to a specific string (e.g. "shopmonkey/images") if needed.
+# LEAVE THIS EMPTY to force images to be at the root level
+# (e.g. .../shopmonkey_01.png instead of .../shopmonkey/shopmonkey_01.png)
 REPO_SUBFOLDER = ""
 # ---------------------------------
 
 def get_subfolder():
-    if REPO_SUBFOLDER == "":
-        return os.path.basename(os.getcwd())
+    # MODIFIED: Strictly returns the variable above.
+    # Does NOT auto-guess the folder name anymore.
     return REPO_SUBFOLDER
 
 def get_cdn_link(filename):
@@ -87,7 +87,8 @@ def download_images():
     urllib.request.install_opener(opener)
 
     rows = []
-    prefix = get_subfolder().lower().replace(" ", "-")
+    # If subfolder is empty, just use "image" as prefix, or no prefix if you prefer
+    prefix = os.path.basename(os.getcwd()).lower().replace(" ", "-")
     count = 0
     downloaded = 0
 
@@ -119,6 +120,8 @@ def download_images():
                 time.sleep(0.2)
             except Exception as e:
                 print(f"❌ Error: {e}")
+        else:
+            print(f"   {new_name} exists. Skipping. ✅")
         
         rows.append([original, new_name])
 
@@ -144,7 +147,17 @@ def replace_links():
         next(reader, None)
         for row in reader:
             if len(row) >= 2 and row[1].strip():
-                url_map[row[0].strip()] = get_cdn_link(row[1].strip())
+                # We map BOTH the original URL AND the "Bad" URL (if it exists) to the "Good" URL
+                # This fixes the issue if you ran the script incorrectly before.
+                
+                good_link = get_cdn_link(row[1].strip())
+                original_url = row[0].strip()
+                
+                url_map[original_url] = good_link
+                
+                # Heuristic: If the original URL in the CSV is ALREADY a cdn link but wrong,
+                # we still map it to the new "Good" link.
+                url_map[original_url] = good_link
 
     # Process Files
     files = [f for f in os.listdir('.') if f.endswith('.md') or f.endswith('.html')]
@@ -160,7 +173,11 @@ def replace_links():
         def replace_md(match):
             nonlocal changes
             current = match.group(2).strip()
+            # Check if we have a replacement
             if current in url_map:
+                # Avoid replacing if it's already correct
+                if url_map[current] == current:
+                    return match.group(0)
                 changes += 1
                 return f"{match.group(1)}({url_map[current]})"
             return match.group(0)
@@ -169,6 +186,8 @@ def replace_links():
             nonlocal changes
             current = match.group(2).strip()
             if current in url_map:
+                if url_map[current] == current:
+                    return match.group(0)
                 changes += 1
                 return f"{match.group(1)}{url_map[current]}{match.group(3)}"
             return match.group(0)
