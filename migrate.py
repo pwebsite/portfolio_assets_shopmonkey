@@ -15,11 +15,11 @@ BRANCH = "main"
 
 # "auto" will use the name of the folder this script is running in (e.g. "shopmonkey")
 # Change this to a specific string (e.g. "shopmonkey/images") if needed.
-REPO_SUBFOLDER = "auto"
+REPO_SUBFOLDER = ""
 # ---------------------------------
 
 def get_subfolder():
-    if REPO_SUBFOLDER == "auto":
+    if REPO_SUBFOLDER == "":
         return os.path.basename(os.getcwd())
     return REPO_SUBFOLDER
 

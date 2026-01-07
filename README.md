@@ -12,7 +12,12 @@ python3 migrate.py --scan
 # Step 2: Download images locally (auto-names them)
 python3 migrate.py --download
 
-# Step 3: Replace old links with CDN links
+# Step 3: Push to Github
+git add .
+git commit -m "Migrated images and updated links"
+git push origin main
+
+# Step 4: Replace old links with CDN links
 python3 migrate.py --replace
 ```
 
